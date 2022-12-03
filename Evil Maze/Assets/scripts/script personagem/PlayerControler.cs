@@ -19,6 +19,7 @@ public class PlayerControler : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody>();
+        Cursor.lockState = CursorLockMode.Locked;
     }
 
     // Update is called once per frame
@@ -38,5 +39,11 @@ public class PlayerControler : MonoBehaviour
     private void FixedUpdate()
     {
         rb.MovePosition(rb.position + dire * 10 * Time.fixedDeltaTime);
+
+    }
+
+    void OnCollisionEnter(Collision collision) 
+    { 
+      Debug.Log("eu colidi com algo");
     }
 }
