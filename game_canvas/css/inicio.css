@@ -14,10 +14,11 @@
 }
 
 .butao{
-    background-color: darkcyan;
-    border-radius: 8px;
+    background-color: rgb(169, 0, 0);
+    border-radius: 18px;
+    border: 3px solid rgb(195, 0, 0);
     color: cornsilk;
-    padding: 10px;
+    padding: 12px;
 }
 
 .butao:disabled{
@@ -27,5 +28,5 @@
 }
 
 body{
-    background-image: url("../img/maze.png");
+    background-color: rgb(113, 23, 23);
 }
