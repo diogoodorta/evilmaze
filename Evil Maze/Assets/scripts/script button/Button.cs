@@ -10,7 +10,6 @@ public class Button : MonoBehaviour
      void OnTriggerEnter(Collider col)
      {
         Door.SetActive(false);
-
         Destroy(this.gameObject);
      }
 }
