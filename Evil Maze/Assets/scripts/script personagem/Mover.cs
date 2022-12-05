@@ -7,14 +7,14 @@ public class Mover : MonoBehaviour
 
     private Vector3 entradaJogador;
     private CharacterController characterController;
-    private float velociJogador = 10f;
+    private float velociJogador = 25f;
     private Transform myCamera;
 
     private bool estanoChao;
     [SerializeField] private Transform verificaChao;
     [SerializeField] private LayerMask cenarioMask;
     
-    [SerializeField] private float alturaSalto = 10f;
+    [SerializeField] private float alturaSalto = 300f;
     private float gravidade = -9.81f;
     private float velociVertical;
 
