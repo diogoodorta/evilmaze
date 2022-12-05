@@ -1,0 +1,32 @@
+.inico{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-self: center;
+}
+
+.login_input{
+    border: 2px solid #333;
+    border-radius: 8px;
+    color: #333;
+    padding: 10px;
+}
+
+.butao{
+    background-color: rgb(169, 0, 0);
+    border-radius: 18px;
+    border: 3px solid rgb(195, 0, 0);
+    color: cornsilk;
+    padding: 12px;
+}
+
+.butao:disabled{
+    background-color: #eee;
+    color: #aaa;
+    cursor: auto;
+}
+
+body{
+    background-color: rgb(113, 23, 23);
+}

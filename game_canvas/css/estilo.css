@@ -1,0 +1,26 @@
+:root{
+    --cor-primaria-success: rgb(203, 25, 25);
+    --cor-hover-success: rgb(144, 38, 36);
+    --cor-secundaria-success: bisque;
+}
+
+.titulo {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-family: 'Cooper Black';
+}
+
+.exit{
+    border: none;
+    padding: 10px;
+    text-transform: uppercase;
+    background-color: var(--cor-primaria-success);
+    outline-color: blanchedalmond;
+    color: var(--cor-secundaria-success);
+    transition: background .3s;
+    border-radius: 5px;
+}
+
+.exit:hover{
+    background-color: var(--cor-hover-success);
+}
