@@ -16,7 +16,6 @@ public class tempo : MonoBehaviour
         
     }
 
-    // Update is called once per frame
     void Update()
     {
         if(contagem > 0.0f)
