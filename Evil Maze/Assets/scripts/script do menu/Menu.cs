@@ -5,9 +5,9 @@ using UnityEngine.SceneManagement;
 
 public class Menu : MonoBehaviour
 {    
-    public void LoadScene(string cena)
+    public void LoadScene(string fase)
     {
-       SceneManager.LoadScene(cena);
+       SceneManager.LoadScene(fase);
     }
 
 
