@@ -2,13 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class tempo : MonoBehaviour
 {
 
     public Text displayContagem;
 
-    public float contagem = 120.0f;
+    public float contagem = 50f;
 
 
     void Start()
@@ -27,6 +28,8 @@ public class tempo : MonoBehaviour
         else
         {
            displayContagem.text = "Adeus";
+
+           SceneManager.LoadScene("Game Over");
         }
     }
 }
