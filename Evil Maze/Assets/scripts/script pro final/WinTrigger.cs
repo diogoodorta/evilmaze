@@ -4,10 +4,11 @@ using UnityEngine;
 
 public class WinTrigger : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public GameObject winWindow;
+
+    void OnTriggerEnter(Collider col)
     {
-        
+        winWindow.SetActive(true);
     }
 
     // Update is called once per frame
