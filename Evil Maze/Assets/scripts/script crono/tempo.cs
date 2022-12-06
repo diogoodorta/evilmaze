@@ -9,7 +9,7 @@ public class tempo : MonoBehaviour
 
     public Text displayContagem;
 
-    public float contagem = 50f;
+    public float contagem = 120.0f;
 
 
     void Start()
